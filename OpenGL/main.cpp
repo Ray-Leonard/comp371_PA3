@@ -1,6 +1,6 @@
 
 #include "functions.h"
-
+#include "softbody/global.h"
 int main()
 {
     // ****************** initialization process ****************************************
