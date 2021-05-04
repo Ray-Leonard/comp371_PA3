@@ -29,7 +29,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				0A4CA143260BDC8400D30614 /* assets in Copy Files */,
 				0ACCD4E725D916AE0045C4F6 /* resources in Copy Files */,
@@ -50,6 +50,7 @@
 		0ACCD4DD25D8A1C40045C4F6 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = /usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<absolute>"; };
 		0ACCD4E425D90BF70045C4F6 /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
 		0ACCD4E525D916900045C4F6 /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		0ADAC6042640E70D00B929B9 /* softbody */ = {isa = PBXFileReference; lastKnownFileType = folder; path = softbody; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		0ACCD4D025D89F260045C4F6 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				0ADAC6042640E70D00B929B9 /* softbody */,
 				0A4CA142260BDC7B00D30614 /* assets */,
 				0ACCD4E525D916900045C4F6 /* resources */,
 				0ACCD4D125D89F260045C4F6 /* main.cpp */,
